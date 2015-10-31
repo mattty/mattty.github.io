@@ -1,23 +1,18 @@
 ---
-layout: default
+layout: plain
+title: mattty.net - the good handles were already taken
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div style="padding:25px;">
+  <p>
+    Hello! Is it me you're looking for?
+  </p>
+  <p>
+    If so, you may want to visit my <a href="http://linkedin.com/mattcboys">LinkedIn</a>, my <a href="http://twitter.com/mattty">Twitter</a> or my <a href="http://github.com/mattty">Github</a> profile.
+  </p>
+  <p>
+    Or you can try my latest <a href="http://ifttt.com">IFTTT</a> Recipe!
+  </p>
+  <div>
+    <a href="https://ifttt.com/view_embed_recipe/186779-notify-me-of-new-poorly-drawn-line-comics" target = "_blank" class="embed_recipe embed_recipe-l_41" id= "embed_recipe-186779"><img src= 'https://ifttt.com/recipe_embed_img/186779' alt="IFTTT Recipe: Notify me of new Poorly Drawn Line Comics connects feed to pushbullet" width="370px" style="max-width:100%"/></a><script async type="text/javascript" src= "//ifttt.com/assets/embed_recipe.js"></script>
+  </div>
 </div>
